@@ -180,25 +180,25 @@
 // 13. (Optional) Use JS Turtle to draw n polygons, n entered by users
 
 
-let n = prompt('Enter number of pictures to draw ')
-// ve n hinh 
-// ví dụ số hình là 3 thì số cạnh của hình cuối cùng là 5
-let x = 3;
-let y = 3;
-// ve hinh co so canh
-function draw(){
-    for(var i = 1; i <= y; i++)
-    {
-        Fd(50);
-        lt(360/x);
-    }
-}
-function drowAll(){
-    for(var itemp = 1; itemp <= n; itemp ++)
-    {
-        draw();
-    }
-}
+// let n = prompt('Enter number of pictures to draw ')
+// // ve n hinh 
+// // ví dụ số hình là 3 thì số cạnh của hình cuối cùng là 5
+// let x = 3;
+// let y = 3;
+// // ve hinh co so canh
+// function draw(){
+//     for(var i = 1; i <= y; i++)
+//     {
+//         Fd(50);
+//         lt(360/x);
+//     }
+// }
+// function drowAll(){
+//     for(var itemp = 1; itemp <= n; itemp ++)
+//     {
+//         draw();
+//     }
+// }
 
 
 
